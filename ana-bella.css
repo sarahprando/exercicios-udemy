@@ -3,3 +3,18 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#principal {
+    width: 900px;
+}
+
+#menu {
+    background: #c5c5c2;
+    padding: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+}
