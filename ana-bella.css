@@ -13,9 +13,18 @@ body {
     padding: 18px;
 }
 
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
     color: #4b566a;
     font-weight: bold;
     padding: 5px;
+}
+
+.centralizar {
+    text-align: center;
 }
