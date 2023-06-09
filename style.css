@@ -70,3 +70,26 @@ a {
     font-size: 1em;
 }
 
+@media screen and (max-width: 992px) {
+
+    ::-webkit-scrollbar {
+        background-color: #EFEFEF;
+        border: 3px solid #2B4B82;
+    }
+
+    .container {
+        display: grid;
+        gap: 5em;
+        grid-template-columns: 1fr;
+    }
+
+    .login {
+        gap: 3em;
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 2em;
+    }
+}
+
