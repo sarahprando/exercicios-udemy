@@ -71,12 +71,7 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-
-    ::-webkit-scrollbar {
-        background-color: #EFEFEF;
-        border: 3px solid #2B4B82;
-    }
-
+    
     .container {
         display: grid;
         gap: 5em;
