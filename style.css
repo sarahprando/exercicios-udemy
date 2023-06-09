@@ -62,7 +62,10 @@ a {
 }
 
 .copyright {
+    width: 100%;
     text-align: center;
+    bottom: 0px;
+    position: absolute;
 }
 
 .copyright a {
@@ -70,12 +73,50 @@ a {
     font-size: 1em;
 }
 
+fieldset {
+    border: #2B4B82 dashed 0.5px;
+    max-width: 60%;
+}
+
+legend {
+    color: #2B4B82;
+    font-size: 2em;
+    text-align: center;
+}
+
+.register {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 5em;
+    padding: 5em;
+}
+
+.register__container {
+    color: #2B4B82;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.coffee-register img {
+    display: grid;
+    margin: auto;
+    max-width: 65%;
+}
+
 @media screen and (max-width: 992px) {
-    
-    .container {
+
+    .container, .register__container {
         display: grid;
         gap: 5em;
         grid-template-columns: 1fr;
+    }
+
+    fieldset {
+        margin: auto;
     }
 
     .login {
@@ -85,6 +126,8 @@ a {
 
     .copyright {
         margin-top: 2em;
+        width: 100%;
+        text-align: center;
+        position: relative;
     }
 }
-
