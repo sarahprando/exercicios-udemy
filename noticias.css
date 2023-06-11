@@ -15,6 +15,7 @@ body {
 
 #topo {
     height: 150px;
+    padding: 25px;
     background: url(img/noticias/detalhe-topo.png) no-repeat right top;
 }
 
@@ -67,6 +68,27 @@ body.saude #navegation a#saude,
 body.fotos #navegation a#fotos {
     color: #fff;
     background: #de003e;
-
 }
 
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
