@@ -92,3 +92,14 @@ body.fotos #navegation a#fotos {
     float: left;
     margin: 0 0 20px -750px;
 }
+
+#copyright {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
