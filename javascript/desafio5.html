@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <script>
+        function recebeuFoco() {
+            document.getElementById('entrada').style.background = '#FFFF00'
+        }
+
+        function valida() {
+            var caracterValor = document.getElementById('entrada').value
+
+            if (caracterValor.length < 3) {
+                document.getElementById('entrada').style.background = '#FF0000'
+            } else {
+                document.getElementById('entrada').style.background = '#008000'
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <input id="entrada" type="text" onfocus="recebeuFoco()" onblur="valida()">
+
+</body>
+</html>
