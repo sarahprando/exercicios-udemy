@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -15,49 +14,48 @@
 </head>
 
 <body>
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="calculadora">
+            <div class="col-md-12">
+              <input type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+              <div class="row">
+                <button type="button" class="btn btn-sm clear font-weight-light">C</button>
+                <button type="button" class="btn btn-sm font-weight-light">/</button>
+                <button type="button" class="btn btn-sm font-weight-light">x</button>
+              </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col d-flex">
+              <div class="row">
+                <button type="button" class="btn btn-sm font-weight-light">7</button>
+                <button type="button" class="btn btn-sm font-weight-light">8</button>
+                <button type="button" class="btn btn-sm font-weight-light">9</button>
+                <button type="button" class="btn btn-sm font-weight-light">-</button>
+              </div>
 
+              <div class="row">
+                <button type="button" class="btn btn-sm font-weight-light">4</button>
+                <button type="button" class="btn btn-sm font-weight-light">5</button>
+                <button type="button" class="btn btn-sm font-weight-light">6</button>
+                <button type="button" class="btn btn-sm font-weight-light">+</button>
+              </div>
 
-        <div class="calculadora">
-          <input type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
-          <div class="row">
-            <button type="button" class="btn btn-dark btn clear font-weight-light">C</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">/</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">x</button>
-          </div>
+              <div class="row">
+                <button type="button" class="btn btn-sm font-weight-light">1</button>
+                <button type="button" class="btn btn-sm font-weight-light">2</button>
+                <button type="button" class="btn btn-sm font-weight-light">3</button>
+                <button type="button" class="btn btn-sm enter">=</button>
+              </div>
 
-          <div class="row">
-            <button type="button" class="btn btn-dark btn font-weight-light">7</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">8</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">9</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">-</button>
-          </div>
-
-          <div class="row">
-            <button type="button" class="btn btn-dark btn font-weight-light">4</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">5</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">6</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">+</button>
-          </div>
-
-          <div class="row">
-            <button type="button" class="btn btn-dark btn font-weight-light">1</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">2</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">3</button>
-            <button type="button" class="btn btn-dark btn enter">=</button>
-          </div>
-
-          <div class="row" style="margin-top: -60px">
-            <button type="button" class="btn btn-dark zero btn font-weight-light">0</button>
-            <button type="button" class="btn btn-dark btn font-weight-light">.</button>
+              <div class="row" style="margin-top: -60px">
+                <button type="button" class="btn zero btn-sm font-weight-light">0</button>
+                <button type="button" class="btn font-weight-light">.</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>

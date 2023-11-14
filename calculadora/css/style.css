@@ -24,6 +24,11 @@ body {
     border: solid 2px #323232;
 }
 
+.btn:hover {
+    background: #e8b243;
+    color: #eee9d5;
+}
+
 .clear {
     width: 130px;
 }
