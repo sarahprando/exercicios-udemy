@@ -6,6 +6,7 @@ body {
 .calculadora {
     margin-top: 20%;
     padding: 35px 0px 15px;
+    width: auto;
     border-radius: 20px;
     background: url(../img/back_cal.svg);
     background-size: cover;
