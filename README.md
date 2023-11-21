@@ -12,6 +12,19 @@
   <img alt="Sarah-jQuery" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
   <img alt="Sarah-Wordpress" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white">
 </div>
+<br>
+<p align="center">Alguns projetos realizados:</p>
+<div style="display: inline_block" align="center">
+ <a href="https://sarahprando.github.io/spotify">Spotify</a>
+- <a href="https://sarahprando.github.io/finans">Finans</a>
+- <a href="https://sarahprando.github.io/TecBlog/">TecBlog</a>
+- <a href="https://sarahprando.github.io/exercicios-udemy/calculadora/calculadora.html">Calculadora</a>
+- <a href="https://sarahprando.github.io/exercicios-udemy/noticias-cidade/index.html">Notícias Cidade</a>
+- <a href="https://sarahprando.github.io/exercicios-udemy/museu-nacional/museu-nacional.html">Museu Nacional</a>
+- <a href="https://sarahprando.github.io/exercicios-udemy/ana-bella/home.html">Anna Bella</a>
+</div>
+
+
 
 <div style="display: inline_block" align="center"><br>
   <img height="200" width="200" src="coding.png">
