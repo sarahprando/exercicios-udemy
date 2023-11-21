@@ -14,5 +14,5 @@
 </div>
 
 <div style="display: inline_block" align="center"><br>
-  <img height="200" width="200" src="img/desenvolvedor-de-software.png">
+  <img height="200" width="200" src="coding.png">
 </div>
