@@ -14,8 +14,19 @@
 
 <body onresize="ajustarTamanho()">
 
+    <div class="painel">
+        <div class="vidas">
+            <img src="assents/img/coracao_cheio.png" id="v1">
+            <img src="assents/img/coracao_cheio.png" id="v2">
+            <img src="assents/img/coracao_cheio.png" id="v3">
+        </div>
+        <div class="cronometro">Tempo Restante: </div>
+    </div>
+
     <script>
-        positionRandom()
+        setInterval(function () {
+            positionRandom()
+        }, 2000)
     </script>
 
 </body>
